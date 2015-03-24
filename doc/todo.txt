@@ -1,0 +1,26 @@
+
+Security
+
+
+configure logout
+add smart logout button to top nav
+configure custom login page
+migrate to db driven authentication
+fix config
+
+
+
+General
+Set up Sass/compass/bower/grunt
+Unit tests and mocks
+git local branching
+
+
+
+REFERENCES
+
+Spring Security:
+http://docs.spring.io/spring-security/site/docs/3.2.5.RELEASE/reference/htmlsingle
+http://www.mkyong.com/spring-security/
+http://www.joshlong.com/jl/blogPost/simplified_web_configuration_with_spring.html
+

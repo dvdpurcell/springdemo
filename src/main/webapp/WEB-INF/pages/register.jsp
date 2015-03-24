@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -8,7 +9,7 @@
     <h1>Create an Account</h1>
 
 
-    <form>
+    <form:form method="post" action="/user/add" commandName="user" class="form-horizontal">
         <div class="row">
             <div class="small-10 columns">
                 <label>First Name</label>
@@ -35,10 +36,10 @@
         </div>
         <div class="row">
             <div class="small-10 small-centered columns">
-                <a href="#" class="small radius button">Join</a><br/>
+                <button type="submit" class="small radius button">Join</button><br/>
             </div>
         </div>
-    </form>
+    </form:form>
 
 
 
